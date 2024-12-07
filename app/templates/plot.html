@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Battery Analysis</title>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Aging Plots</title>
 </head>
 <body>
-    <h1>Battery Analysis Plots</h1>
+    <h1>Battery Aging Analysis</h1>
 
     <h2>Electrolyte Resistance (Re) vs Aging</h2>
-    <div>{{ plot_re|safe }}</div>
+    <div>
+        {{ plot_re|safe }}
+    </div>
 
     <h2>Charge Transfer Resistance (Rct) vs Aging</h2>
-    <div>{{ plot_rct|safe }}</div>
+    <div>
+        {{ plot_rct|safe }}
+    </div>
 
     <h2>Battery Impedance vs Aging</h2>
-    <div>{{ plot_impedance|safe }}</div>
-
+    <div>
+        {{ plot_impedance|safe }}
+    </div>
+    
+    <br><br>
+    <a href="/">Upload another file</a>
 </body>
 </html>
