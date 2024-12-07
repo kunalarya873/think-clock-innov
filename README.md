@@ -1,19 +1,3 @@
-Battery Impedance Analysis Dashboard
-====================================
-
-This Django-based web application enables users to upload CSV files containing battery performance data, process the data, and visualize the aging of batteries through various parameters, including **Electrolyte Resistance (Re)**, **Charge Transfer Resistance (Rct)**, and **Battery Impedance**.
-
-Features
---------
-
-*   Upload CSV files containing battery data.
-*   Calculate **Battery Impedance** as the sum of **Re** and **Rct**.
-*   Generate interactive plots using Plotly:
-    *   **Electrolyte Resistance (Re) vs Aging**
-    *   **Charge Transfer Resistance (Rct) vs Aging**
-    *   **Battery Impedance vs Aging**
-*   Visualize trends with a **LOWESS** trendline.
-
 # Battery Impedance Analysis Dashboard
 
 This Django-based web application enables users to visualize battery aging parameters.
