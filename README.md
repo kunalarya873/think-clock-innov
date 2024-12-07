@@ -14,6 +14,25 @@ Features
     *   **Battery Impedance vs Aging**
 *   Visualize trends with a **LOWESS** trendline.
 
+# Battery Impedance Analysis Dashboard
+
+This Django-based web application enables users to visualize battery aging parameters.
+
+## Features
+- Upload CSV files containing battery data.
+- Visualize key parameters such as Re, Rct, and Battery Impedance using interactive plots.
+
+## Graphs
+
+### 1. Electrolyte Resistance (Re) vs Aging
+![Re vs Aging](assets/images/electrolyte.png)
+
+### 2. Charge Transfer Resistance (Rct) vs Aging
+![Rct vs Aging](assets/images/charge.png)
+
+### 3. Battery Impedance vs Aging
+![Battery Impedance vs Aging](assets/images/impoedance.png)
+
 * * *
 
 Logic Behind the Application
