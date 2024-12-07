@@ -73,12 +73,16 @@ Installation
 1.  **Clone the Repository**
     
     `git clone https://github.com/kunalarya873/think-clock-innov`
+
     `cd think-clock-innov/` 
     
 2.  **Set Up a Virtual Environment**
     
-    `python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate` 
+    `python -m venv venv`
+
+    `source venv/bin/activate`
+
+    On Windows: `venv\Scripts\activate` 
     
 3.  **Install Dependencies**
     
